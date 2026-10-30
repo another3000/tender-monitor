@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="公开招投标信息监控：检验/LIS/实验室、输血/血库、LIMS 每日扫描汇总" />
+  <title>汇总 · 招投标信息监控</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  
+</head>
+<body data-page="home" data-root="data">
+  <header class="site-nav">
+    <div class="container inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">标</span>
+        <span>招投标信息监控</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="菜单">菜单</button>
+      <ul class="nav-links">
+        <li><a href="index.html" data-nav="home">汇总</a></li>
+        <li><a href="today.html" data-nav="today">今日</a></li>
+        <li><a href="dates/index.html" data-nav="dates">按日期</a></li>
+        <li><a href="sources.html" data-nav="sources">信源</a></li>
+        <li><a href="index.html#about" data-nav="about">关于</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-eyebrow">Daily Tender Monitor · 2026-10-30</div>
+      <h1>全国公开招投标信息监控</h1>
+      <p class="lead">聚焦检验 / LIS / 实验室、输血 / 血库与 LIMS。每日扫描公开信源，沉淀可筛选汇总与详情页，经由 GitHub Pages 发布。</p>
+      <div class="hero-meta">
+        <span class="pill notice">关键词 LIS · 实验室 · 输血 · LIMS</span>
+        <span class="pill verified">信源 52 条</span>
+        <span class="pill">样例标讯 12 条</span>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="stats">
+        <div class="stat-card"><div class="label">今日/样例标讯</div><div class="value">12</div><div class="hint">已入库可筛选</div></div>
+        <div class="stat-card"><div class="label">公开信源</div><div class="value">52</div><div class="hint">verified / indexed / catalog</div></div>
+        <div class="stat-card"><div class="label">覆盖省份</div><div class="value">8</div><div class="hint">本批样例</div></div>
+        <div class="stat-card"><div class="label">更新日期</div><div class="value" style="font-size:1.15rem">2026-10-30</div><div class="hint">Asia/Shanghai</div></div>
+      </div>
+    </section>
+
+    <section class="container" id="tenders">
+      <div class="section-head">
+        <h2>标讯汇总</h2>
+        <span class="count" id="result-count"></span>
+      </div>
+      <div class="toolbar">
+        <input id="filter-q" type="search" placeholder="搜索标题、采购人、地区…" />
+        <select id="filter-province"><option value="">全部省份</option></select>
+        <select id="filter-type"><option value="">全部公告类型</option></select>
+        <div class="filter-chips">
+          <button type="button" class="chip" data-tag="LIS">LIS</button>
+          <button type="button" class="chip" data-tag="实验室">实验室</button>
+          <button type="button" class="chip" data-tag="输血">输血</button>
+          <button type="button" class="chip" data-tag="LIMS">LIMS</button>
+        </div>
+      </div>
+      <div id="tender-list" class="card-list" data-source="data/index.json" data-detail-prefix=""></div>
+    </section>
+
+    <section class="container" id="about">
+      <div class="about-box">
+        <h2>关于本站</h2>
+        <p>本仓库维护公开招投标<strong>信源列表</strong>与按日采集的<strong>结构化标讯</strong>，静态站点部署于 GitHub Pages（目录 <code>docs/</code>）。数据仅来自公开网页，链接指向原文公告。</p>
+        <p>优先扫描中国政府采购网中央/地方列表、采购意向、全国公共资源交易平台及已核验省级平台；医院官网采购栏目作为补充。</p>
+        <p><a class="btn btn-primary" href="today.html">查看今日页面</a>
+           <a class="btn btn-ghost" href="sources.html">浏览信源</a>
+           <a class="btn btn-ghost" href="dates/index.html">按日期导航</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container inner">
+      <div>招投标信息监控 · 公开信息聚合 · 更新于 2026-10-30（Asia/Shanghai）</div>
+      <div><a href="sources.html">信源列表</a> · <a href="https://github.com/another3000/tender-monitor">GitHub</a></div>
+    </div>
+  </footer>
+  <script src="assets/app.js"></script>
+</body>
+</html>

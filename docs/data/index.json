@@ -1,0 +1,233 @@
+{
+  "site": "招投标信息监控",
+  "basePath": "/tender-monitor/",
+  "updatedAt": "2026-10-30T11:30:00+08:00",
+  "latestDate": "2026-10-30",
+  "dates": [
+    "2026-10-30"
+  ],
+  "keywords": [
+    "LIS",
+    "实验室",
+    "输血",
+    "LIMS",
+    "血库",
+    "检验"
+  ],
+  "stats": {
+    "tenderCount": 12,
+    "sourceCount": 52,
+    "provinceCount": 8,
+    "dateCount": 1
+  },
+  "tenders": [
+    {
+      "id": "yn-dongchuan-lis-20261026",
+      "title": "昆明东川区人民医院病理信息系统及区检LIS",
+      "buyer": "昆明市东川区人民医院",
+      "region": "云南·昆明东川区",
+      "province": "云南",
+      "noticeType": "公开招标",
+      "budget": "约99万",
+      "budgetNum": 99,
+      "publishDate": "2026-10-26",
+      "tags": [
+        "LIS",
+        "实验室"
+      ],
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/gkzb/202610/t20261026_27563521.htm",
+      "detailPath": "tenders/yn-dongchuan-lis-20261026.html",
+      "collectedAt": "2026-10-30"
+    },
+    {
+      "id": "zj-wenling-lab-20261022",
+      "title": "温岭市中医院智慧实验室信息系统",
+      "buyer": "温岭市中医院",
+      "region": "浙江·台州温岭",
+      "province": "浙江",
+      "noticeType": "公开招标",
+      "budget": "50万",
+      "budgetNum": 50,
+      "publishDate": "2026-10-22",
+      "tags": [
+        "实验室",
+        "LIS"
+      ],
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/gkzb/202610/t20261022_27541335.htm",
+      "detailPath": "tenders/zj-wenling-lab-20261022.html",
+      "collectedAt": "2026-10-30"
+    },
+    {
+      "id": "jx-tumor-lis-20261014",
+      "title": "江西省肿瘤医院实验室LIS采购意向",
+      "buyer": "江西省肿瘤医院",
+      "region": "江西·南昌",
+      "province": "江西",
+      "noticeType": "采购意向",
+      "budget": "60万",
+      "budgetNum": 60,
+      "publishDate": "2026-10-14",
+      "tags": [
+        "LIS",
+        "实验室"
+      ],
+      "url": "http://www.jxszlyy.com/info/1047/104150.htm",
+      "detailPath": "tenders/jx-tumor-lis-20261014.html",
+      "collectedAt": "2026-10-30"
+    },
+    {
+      "id": "cq-cqmu3-blood-20261012",
+      "title": "重医大附三院输血管理信息系统",
+      "buyer": "重庆医科大学附属第三医院",
+      "region": "重庆·两江新区",
+      "province": "重庆",
+      "noticeType": "公开比选",
+      "budget": "约35万",
+      "budgetNum": 35,
+      "publishDate": "2026-10-12",
+      "tags": [
+        "输血"
+      ],
+      "url": "http://www.3-hospital-cqmu.com/announcement_zbcg/2026/0203861016074.htm",
+      "detailPath": "tenders/cq-cqmu3-blood-20261012.html",
+      "collectedAt": "2026-10-30"
+    },
+    {
+      "id": "yn-y1ph-blood-20260918",
+      "title": "云南省第一人民医院输血管理信息系统升级",
+      "buyer": "云南省第一人民医院",
+      "region": "云南·昆明",
+      "province": "云南",
+      "noticeType": "公开招标",
+      "budget": "35万",
+      "budgetNum": 35,
+      "publishDate": "2026-09-18",
+      "tags": [
+        "输血"
+      ],
+      "url": "https://www.e-czt.com/sdny_bulletin/2026-09-18/47203.html",
+      "detailPath": "tenders/yn-y1ph-blood-20260918.html",
+      "collectedAt": "2026-10-30"
+    },
+    {
+      "id": "zj-beilun-lis-20260922",
+      "title": "北仑区妇幼智慧实验室LIS升级",
+      "buyer": "宁波市北仑区妇幼保健院",
+      "region": "浙江·宁波北仑",
+      "province": "浙江",
+      "noticeType": "公开招标",
+      "budget": "40万",
+      "budgetNum": 40,
+      "publishDate": "2026-09-22",
+      "tags": [
+        "LIS",
+        "实验室"
+      ],
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/gkzb/202609/t20260922_27380758.htm",
+      "detailPath": "tenders/zj-beilun-lis-20260922.html",
+      "collectedAt": "2026-10-30"
+    },
+    {
+      "id": "sc-chengdu-blood-20260920",
+      "title": "成都市血液中心血液管理信息系统",
+      "buyer": "成都市血液中心",
+      "region": "四川·成都",
+      "province": "四川",
+      "noticeType": "公开招标",
+      "budget": "45万",
+      "budgetNum": 45,
+      "publishDate": "2026-09-20",
+      "tags": [
+        "输血"
+      ],
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/gkzb/202609/t20260920_27364616.htm",
+      "detailPath": "tenders/sc-chengdu-blood-20260920.html",
+      "collectedAt": "2026-10-30"
+    },
+    {
+      "id": "zj-jinhua-lab-20260921",
+      "title": "金华市中心医院中心实验室智慧管理系统",
+      "buyer": "金华市中心医院",
+      "region": "浙江·金华",
+      "province": "浙江",
+      "noticeType": "公开招标",
+      "budget": "192万",
+      "budgetNum": 192,
+      "publishDate": "2026-09-21",
+      "tags": [
+        "实验室"
+      ],
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/gkzb/202609/t20260921_27368783.htm",
+      "detailPath": "tenders/zj-jinhua-lab-20260921.html",
+      "collectedAt": "2026-10-30"
+    },
+    {
+      "id": "xj-intl-lis-20260808",
+      "title": "新疆国际医院LIS",
+      "buyer": "新疆国际医疗中心",
+      "region": "新疆·乌鲁木齐",
+      "province": "新疆",
+      "noticeType": "公开招标",
+      "budget": "130万",
+      "budgetNum": 130,
+      "publishDate": "2026-08-08",
+      "tags": [
+        "LIS"
+      ],
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/gkzb/202608/t20260808_27099584.htm",
+      "detailPath": "tenders/xj-intl-lis-20260808.html",
+      "collectedAt": "2026-10-30"
+    },
+    {
+      "id": "hn-cdc-lab-20260910",
+      "title": "河南省疾控智慧型实验室管理系统",
+      "buyer": "河南省疾控中心",
+      "region": "河南·郑州",
+      "province": "河南",
+      "noticeType": "公开招标",
+      "budget": "272.4万",
+      "budgetNum": 272.4,
+      "publishDate": "2026-09-10",
+      "tags": [
+        "实验室"
+      ],
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/gkzb/202609/t20260910_27304384.htm",
+      "detailPath": "tenders/hn-cdc-lab-20260910.html",
+      "collectedAt": "2026-10-30"
+    },
+    {
+      "id": "hn-zj-lims-20260723",
+      "title": "河南质检院LIMS",
+      "buyer": "河南省产品质量检验技术研究院",
+      "region": "河南·郑州",
+      "province": "河南",
+      "noticeType": "公开招标",
+      "budget": "300万",
+      "budgetNum": 300,
+      "publishDate": "2026-07-23",
+      "tags": [
+        "LIMS"
+      ],
+      "url": "https://erqi.zfcg.henan.gov.cn/cmsweb35rc67w/henan/cgxx/cggg/webinfo/2026/07/23/1990617.htm",
+      "detailPath": "tenders/hn-zj-lims-20260723.html",
+      "collectedAt": "2026-10-30"
+    },
+    {
+      "id": "gs-mddi-lims-20260525",
+      "title": "甘肃器械检所LIMS",
+      "buyer": "甘肃省医疗器械检验检测所",
+      "region": "甘肃·兰州新区",
+      "province": "甘肃",
+      "noticeType": "公开招标",
+      "budget": "189万",
+      "budgetNum": 189,
+      "publishDate": "2026-05-25",
+      "tags": [
+        "LIMS"
+      ],
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/gkzb/202605/t20260525_26625835.htm",
+      "detailPath": "tenders/gs-mddi-lims-20260525.html",
+      "collectedAt": "2026-10-30"
+    }
+  ]
+}

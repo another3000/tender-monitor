@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="公开招投标信息监控：检验/LIS/实验室、输血/血库、LIMS 每日扫描汇总" />
+  <title>2026-10-30 · 招投标信息监控</title>
+  <link rel="stylesheet" href="../assets/style.css" />
+  
+</head>
+<body data-page="dates" data-root="../data">
+  <header class="site-nav">
+    <div class="container inner">
+      <a class="brand" href="../index.html">
+        <span class="brand-mark">标</span>
+        <span>招投标信息监控</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="菜单">菜单</button>
+      <ul class="nav-links">
+        <li><a href="../index.html" data-nav="home">汇总</a></li>
+        <li><a href="../today.html" data-nav="today">今日</a></li>
+        <li><a href="../dates/index.html" data-nav="dates">按日期</a></li>
+        <li><a href="../sources.html" data-nav="sources">信源</a></li>
+        <li><a href="../index.html#about" data-nav="about">关于</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-eyebrow">Date Archive</div>
+      <h1>2026-10-30 标讯</h1>
+      <p class="lead">该日入库 12 条。可按省份、公告类型与关键词标签筛选。</p>
+    </section>
+    <section class="container">
+      <div class="section-head">
+        <h2>列表</h2>
+        <span class="count" id="result-count"></span>
+      </div>
+      <div class="toolbar">
+        <input id="filter-q" type="search" placeholder="搜索标题、采购人、地区…" />
+        <select id="filter-province"><option value="">全部省份</option></select>
+        <select id="filter-type"><option value="">全部公告类型</option></select>
+        <div class="filter-chips">
+          <button type="button" class="chip" data-tag="LIS">LIS</button>
+          <button type="button" class="chip" data-tag="实验室">实验室</button>
+          <button type="button" class="chip" data-tag="输血">输血</button>
+          <button type="button" class="chip" data-tag="LIMS">LIMS</button>
+        </div>
+      </div>
+      <div id="tender-list" class="card-list" data-source="../data/tenders/2026-10-30.json" data-detail-prefix="../"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container inner">
+      <div>招投标信息监控 · 公开信息聚合 · 更新于 2026-10-30（Asia/Shanghai）</div>
+      <div><a href="../sources.html">信源列表</a> · <a href="https://github.com/another3000/tender-monitor">GitHub</a></div>
+    </div>
+  </footer>
+  <script src="../assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="公开招投标信息监控：检验/LIS/实验室、输血/血库、LIMS 每日扫描汇总" />
+  <title>信源 · 招投标信息监控</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  
+</head>
+<body data-page="sources" data-root="data">
+  <header class="site-nav">
+    <div class="container inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">标</span>
+        <span>招投标信息监控</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="菜单">菜单</button>
+      <ul class="nav-links">
+        <li><a href="index.html" data-nav="home">汇总</a></li>
+        <li><a href="today.html" data-nav="today">今日</a></li>
+        <li><a href="dates/index.html" data-nav="dates">按日期</a></li>
+        <li><a href="sources.html" data-nav="sources">信源</a></li>
+        <li><a href="index.html#about" data-nav="about">关于</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-eyebrow">Sources · 52</div>
+      <h1>公开招投标信源</h1>
+      <p class="lead">全国与省级政采 / 公资 / 军队采购及医院官网模式。状态：已核验 29 · 可索引 8 · 目录 14 · 模式 1。</p>
+      <div class="hero-meta">
+        <span class="pill verified">相关度高 33</span>
+        <span class="pill indexed">中 14</span>
+        <span class="pill catalog">低 5</span>
+      </div>
+    </section>
+    <section class="container">
+      <div class="section-head">
+        <h2>信源列表</h2>
+        <span class="count" id="result-count"></span>
+      </div>
+      <div class="toolbar">
+        <input id="filter-q" type="search" placeholder="搜索信源名称、地区、备注…" />
+        <select id="filter-status">
+          <option value="">全部状态</option>
+          <option value="verified">已核验</option>
+          <option value="indexed">可索引</option>
+          <option value="catalog">目录</option>
+          <option value="pattern">模式</option>
+        </select>
+        <select id="filter-relevance">
+          <option value="">全部相关度</option>
+          <option value="高">高</option>
+          <option value="中">中</option>
+          <option value="低">低</option>
+        </select>
+        <select id="filter-region"><option value="">全部地区</option></select>
+      </div>
+      <div id="source-list" class="card-list" data-source="data/sources.json"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container inner">
+      <div>招投标信息监控 · 公开信息聚合 · 更新于 2026-10-30（Asia/Shanghai）</div>
+      <div><a href="sources.html">信源列表</a> · <a href="https://github.com/another3000/tender-monitor">GitHub</a></div>
+    </div>
+  </footer>
+  <script src="assets/app.js"></script>
+</body>
+</html>
